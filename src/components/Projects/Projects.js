@@ -19,8 +19,8 @@ const Projects = () => {
             title="Portfolio Website"
             des="A curated showcase of my creative journey. Explore a collection of my work, spanning design, development, and more. Discover the passion, innovation, and dedication that drive my projects."
             src={PortfolioImg}
-            GithubLink=""
-            WebsiteLink=""
+            GithubLink="https://github.com/ShuaibAlam12/ShuaibPortfolio"
+            WebsiteLink="https://shuaib-portfolio-shuaibalam12.vercel.app/"
           
           />
           <ProjectCard 
