@@ -10,7 +10,7 @@ const Contacts = () => {
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className='w-full'>
-        <div className='w-full h-auto flex justify-between'>
+        <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
           <ContactLeft />
           <ContactRight />
         </div>

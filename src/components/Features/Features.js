@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <section id='features' className='w-full  py-20   border-b-[1px] border-b-black'>
       <Title title="Features" des="WHAT I DO" />
-      <div className='grid grid-cols-3 gap-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3  gap-6 xl:gap-20'>
         <Card
           title="Web Development"
           des="I'm a web development enthusiast, and this is where I bring ideas to life. Dive into my portfolio to witness the websites I've built, each a unique blend of technology and design."

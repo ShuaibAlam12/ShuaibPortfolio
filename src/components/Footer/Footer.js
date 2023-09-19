@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import Contacts from '../Contact/Contact';
 const Footer = () => {
     return (
-        <div className='w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-2 gap-4'>
+        <div className='w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols md:grid-cols-1  lgl:grid-cols-2 gap-4'>
             <div className='w-full flex flex-col gap-8 h-full '>
                 <img className='w-32' src={logo} alt='LogoImage'>
                 </img>

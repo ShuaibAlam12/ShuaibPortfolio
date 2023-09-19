@@ -11,7 +11,7 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className='w-1/2 flex flex-col gap-20' >
+    <div className='w-full lgl:w-1/2 flex flex-col gap-20' >
       <div className='flex flex-col gap-5'>
         <h4 className='text-lg ffont-normal'>WELCOME TO MY WORLD!</h4>
         <h1 className='text-6xl font-bold text-white'>
@@ -19,7 +19,7 @@ const LeftBanner = () => {
           <span className='text-designColor capitalize'>Shuaib Alam</span>
         </h1>
         <h2 className='text-4xl font-bold text-white'>
-          a <span> {text}</span>
+          a <span className='text-designColor capitalize'> {text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -28,7 +28,7 @@ const LeftBanner = () => {
         </h2>
         <p>I'm a full-stack web developer, turning ideas into stunning, user-friendly websites. Explore my work, and let's create your digital success story together!</p>
       </div>
-      <div className='flex justify-between'>
+      <div className='flex flex-col xl:flex-row gap-6 lgl:gap-0  justify-between'>
         <div>
           <h2 className='flex mb-3'>FIND ME IN </h2>
           <div className='flex gap-5'>
@@ -50,9 +50,9 @@ const LeftBanner = () => {
 
           </div>
         </div>
-        <div>
+        <div  className='fflex lgl:flex-row'>
           <h2 className='flex mb-3'>BEST SKILLS ON </h2>
-          <div className='flex gap-5'>
+          <div className='flex gap-5  '>
             <a href='https://www.w3schools.com/REACT/DEFAULT.ASP' target='_blank'>
               <span className='bannerIcon'>
                 <FaReact />

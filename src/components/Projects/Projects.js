@@ -7,14 +7,14 @@ import GreetingImg from '../../assets/images/projects/GreetingImg.png';
 import ToDoListImg from '../../assets/images/projects/ToDoListImg.png';
 const Projects = () => {
   return (
-    <section id='projects' className='w-full py-16  h-[1300px]  border-b-[1px] border-b-black'>
+    <section id='projects' className='w-full py-16   border-b-[1px] border-b-black'>
       <div className='flex justify-center items-center text-center'>
         <Title
           title="VISIT MY PORTFOLIO"
           des="My Projects"
         />
       </div>
-         <div className='grid grid-cols-3 gap-14'>
+         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-14'>
           <ProjectCard 
             title="Portfolio Website"
             des="A curated showcase of my creative journey. Explore a collection of my work, spanning design, development, and more. Discover the passion, innovation, and dedication that drive my projects."
